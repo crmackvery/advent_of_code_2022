@@ -31,9 +31,8 @@ def run(file_name):
             max_elf_cals = elf_cals
         top_three = update_top_three(top_three, elf_cals)
 
-    print(max_elf_cals)
-    print(top_three)
-    print(sum(top_three))
+    print("Day 1 - Part 1: " + str(max_elf_cals))
+    print("Day 1 - Part 2: " + str(sum(top_three)))
     f.close()
 
 

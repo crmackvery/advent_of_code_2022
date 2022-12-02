@@ -12,3 +12,7 @@ class TestAoC(unittest.TestCase):
     def test_day2(self):
         day2.run_pt1('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day2.txt')
         day2.run_pt2('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day2.txt')
+
+
+if __name__ == '__main__':
+    unittest.main()
