@@ -12,11 +12,11 @@ p2_result = {"A X": results["X"] + points["Z"], "A Y": results["Y"] + points["X"
 
 def run_pt1(file_name):
     f = open(file_name, "r")
-    print("Day 2 - Pt 1 Result: " + str(sum(full_result[x] for x in f.read().split("\n"))))
+    print("Day 2 - Part 1: " + str(sum(full_result[x] for x in f.read().split("\n"))))
     f.close()
 
 
 def run_pt2(file_name):
     f = open(file_name, "r")
-    print("Day 2 - Pt 2 Result: " + str(sum(p2_result[x] for x in f.read().split("\n"))))
+    print("Day 2 - Part 2: " + str(sum(p2_result[x] for x in f.read().split("\n"))))
     f.close()
