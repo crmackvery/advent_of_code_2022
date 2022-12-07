@@ -1,6 +1,6 @@
 import unittest
 
-from days import day1, day2, day3, day4
+from days import day1, day2, day3, day4, day5, day6
 
 
 class TestAoC(unittest.TestCase):
@@ -24,6 +24,14 @@ class TestAoC(unittest.TestCase):
         day4.run_pt1_better('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day4.txt')
         day4.run_pt2_first_pass('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day4.txt')
         day4.run_pt2_better('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day4.txt')
+
+    def test_day5(self):
+        day5.run_pt1_first_pass('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day5.txt')
+        day5.run_pt2_first_pass('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day5.txt')
+
+    def test_day6(self):
+        day6.run_pt1_first_pass('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day6.txt')
+        day6.run_pt2_first_pass('/Users/chrismack/PycharmProjects/advent_of_code/inputs/day6.txt')
 
 
 if __name__ == '__main__':
